@@ -1,0 +1,100 @@
+/* Resizing style  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* creating variables  */
+:root {
+  --primary-color: #be9c79;
+}
+/* giving style to the body  */
+body {
+  background-color: rgb(255, 255, 255);
+  
+}
+/* nabvar section  */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img{
+  width: 70px;
+}
+nav .logo{
+  font-size: 50px;
+  color: var(--primary-color);
+  font-family: "Matemasie", sans-serif;
+  font-weight: 200;
+}
+nav ul li{
+  display: inline;
+}
+li a{
+  font-size: 1rem;
+  margin-right: 20px;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+li a:hover{
+  border-bottom: 2px solid black;
+  
+}
+/* styling main content  */
+div{
+  display: flex;
+  justify-content: space-around;
+}
+div img{
+  width: 30vw;
+  background-repeat: no-repeat;
+}
+div .para{
+  color: var(--primary-color);
+  position: relative;
+  top: 360px;
+} 
+main {
+  margin-top: 100px;
+  padding: 10px;
+  width: 100%;
+  
+}
+main .sloghan{
+  color: var(--primary-color);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+main .btn{
+  width: 100%;
+  position: absolute;
+}
+main .btn button{
+  width: 70px;
+  padding: 9px;
+  background-color: #be9c79;
+  border: none;
+  border-radius: 4px;
+  right: 20px;
+  
+}
+main button:hover{
+  background-color: aqua;
+
+}
+main .btn {
+  display: flex;
+  justify-content: space-around;
+}
+/* About us section  */
+section{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(184, 118, 38);
+  padding: 70px;
+} 
+section h1{
+  font-size: 70px;
+  margin-left: 30%;
+}
